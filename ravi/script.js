@@ -11,9 +11,6 @@ let toast = document.querySelector(".toast");
 let toastText = document.querySelector(".toast-text");
 let toastClose = document.querySelector(".toast-close");
 
-
-
-
 //Signup
 let signupFirstNameInput = document.getElementById("firstname-signup");
 let signupLastNameInput = document.getElementById("lastname-signup");
