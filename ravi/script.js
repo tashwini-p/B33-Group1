@@ -3,13 +3,16 @@ const registerBtn = document.getElementById("register");
 const loginBtn = document.getElementById("login");
 let loginpasswordInput = document.getElementById("loginpassword");
 let loginemailInput = document.getElementById("logindata");
-let baseUrl = `https://ravi.com`;
+let baseUrl = `https://ravii.com`;
 let userUrl = `${baseUrl}/users`;
 let siginBtn = document.getElementById("loginbtnSign");
 let userData;
 let toast = document.querySelector(".toast");
 let toastText = document.querySelector(".toast-text");
 let toastClose = document.querySelector(".toast-close");
+
+
+
 
 //Signup
 let signupFirstNameInput = document.getElementById("firstname-signup");
@@ -67,7 +70,7 @@ siginBtn.addEventListener("click", (e) => {
   if (checkUsers(userData)) {
     toastIntoAction("Login Successful", "success");
     setTimeout(() => {
-      window.location.href = "../ravu/index.html";
+      window.location.href = "../raviu/index.html";
     },1200)
    
   } else {
@@ -176,7 +179,7 @@ signupBtn.addEventListener("click", (e) => {
       },
     };
     putUsersIntoLocal(obj);
-    window.location.href = "../ravi/index.html";
+    window.location.href = "../raviii/index.html";
   }
 });
 
@@ -193,6 +196,8 @@ toast.className = "";
   },4000)
 }
 
+
+
 function validatePassword(password) {
   // Password validation criteria
   const hasUpperCase = /[A-Z]/.test(password);
@@ -204,6 +209,5 @@ function validatePassword(password) {
   // Check all criteria are met
   return hasUpperCase && hasLowerCase && hasNumber && hasSpecialChar && isLongEnough;
 }
-
 
 
