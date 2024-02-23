@@ -1,7 +1,7 @@
 {
     "listings": [
       {
-        "hotel_id": 1,
+        "id": 1,
         "name": "Luxury Palace Hotel",
         "year_built": 1995,
         "address": "Downtown - Mumbai, India",
@@ -10,7 +10,7 @@
         "image": "https://a0.muscache.com/im/pictures/hosting/Hosting-1005020310383679513/original/12595aa5-b211-48b9-94cc-9f9d9cca7eac.jpeg?im_w=720"
       },
       {
-        "hotel_id": 2,
+        "id": 2,
         "name": "Riverside Resort",
         "year_built": 2003,
         "address": "Riverfront - Goa, India",
@@ -19,7 +19,7 @@
         "image": "https://a0.muscache.com/im/pictures/f5c88bbd-a308-4bbe-bf59-a494d388fef8.jpg?im_w=720"
       },
       {
-        "hotel_id": 3,
+        "id": 3,
         "name": "Mountain View Lodge",
         "year_built": 1988,
         "address": "Hills - Shimla, India",
@@ -28,7 +28,7 @@
         "image": "https://a0.muscache.com/im/pictures/8bef1dcd-57df-460e-bae7-4ea6388f9bbc.jpg?im_w=720"
       },
       {
-        "hotel_id": 4,
+        "id": 4,
         "name": "Beachfront Resort",
         "year_built": 2010,
         "address": "Beach - Kerala, India",
@@ -37,7 +37,7 @@
         "image": "https://a0.muscache.com/im/pictures/a76e6ffc-7a21-4137-b1cc-f0bbf6297295.jpg?im_w=720"
       },
       {
-        "hotel_id": 5,
+        "id": 5,
         "name": "City Center Inn",
         "year_built": 1990,
         "address": "City Center - Delhi, India",
@@ -46,7 +46,7 @@
         "image": "https://a0.muscache.com/im/pictures/miso/Hosting-974342834810801461/original/2b82bde9-4869-42c6-afa5-8e44dc5f559e.jpeg?im_w=720"
       },
       {
-        "hotel_id": 6,
+        "id": 6,
         "name": "Serenity Spa Resort",
         "year_built": 2005,
         "address": "Countryside - Rajasthan, India",
@@ -55,7 +55,7 @@
         "image": "https://a0.muscache.com/im/pictures/miso/Hosting-750707127038141930/original/7085a98d-2c14-4944-8035-43f542616c5d.jpeg?im_w=720"
       },
       {
-        "hotel_id": 7,
+        "id": 7,
         "name": "Heritage Hotel",
         "year_built": 1985,
         "address": "Old Town - Jaipur, India",
@@ -64,7 +64,7 @@
         "image": "https://a0.muscache.com/im/pictures/miso/Hosting-655499864024475551/original/f7fa4a71-78f9-44c7-aaad-ba3b3a1a5dea.jpeg?im_w=720"
       },
       {
-        "hotel_id": 8,
+        "id": 8,
         "name": "Seaside Retreat",
         "year_built": 2015,
         "address": "Seaside - Puducherry, India",
@@ -73,7 +73,7 @@
         "image": "https://a0.muscache.com/im/pictures/miso/Hosting-659092172238741417/original/c81e2453-2bb4-49b4-9c89-ab1505ce2f40.jpeg?im_w=720"
       },
       {
-        "hotel_id": 9,
+        "id": 9,
         "name": "Lakeview Hotel",
         "year_built": 1998,
         "address": "Lakeside - Udaipur, India",
@@ -82,7 +82,7 @@
         "image": "https://a0.muscache.com/im/pictures/4fdcef68-77a7-4502-a1de-2c3f0361cc85.jpg?im_w=720"
       },
       {
-        "hotel_id": 10,
+        "id": 10,
         "name": "Skyline Suites",
         "year_built": 2018,
         "address": "Skyline - Bengaluru, India",
@@ -91,7 +91,7 @@
         "image": "https://a0.muscache.com/im/pictures/5c27f033-b601-46ae-9f2c-cc7a2b7c0492.jpg?im_w=720"
       },
       {
-        "hotel_id": 11,
+        "id": 11,
         "name": "Tranquil Villa",
         "year_built": 1992,
         "address": "Village - Himachal Pradesh, India",
@@ -100,7 +100,7 @@
         "image": "https://a0.muscache.com/im/pictures/miso/Hosting-49022230/original/6316e9f3-9f94-43b0-8d84-30e0a9516663.jpeg?im_w=720"
       },
       {
-        "hotel_id": 12,
+        "id": 12,
         "name": "Grand Plaza Hotel",
         "year_built": 2000,
         "address": "Plaza - Chennai, India",
@@ -109,7 +109,7 @@
         "image": "https://a0.muscache.com/im/pictures/9eb28b5f-2c1f-4c68-92fe-394363bb5122.jpg?im_w=720"
       },
       {
-        "hotel_id": 13,
+        "id": 13,
         "name": "Forest Retreat",
         "year_built": 1997,
         "address": "Forest - Madhya Pradesh, India",
@@ -118,7 +118,7 @@
         "image": "https://a0.muscache.com/im/pictures/ebb3a9f0-d2e1-41fe-88bf-8053605bae08.jpg?im_w=720"
       },
       {
-        "hotel_id": 14,
+        "id": 14,
         "name": "Harbor View Inn",
         "year_built": 2012,
         "address": "Harbor - Visakhapatnam, India",
@@ -127,7 +127,7 @@
         "image": "https://a0.muscache.com/im/pictures/miso/Hosting-2773033/original/75ab84ba-379e-42de-8e0c-7137ee5e1e57.jpeg?im_w=720"
       },
       {
-        "hotel_id": 15,
+        "id": 15,
         "name": "Sunset Beach Resort",
         "year_built": 1982,
         "address": "Sunset Beach - Andaman and Nicobar Islands, India",
@@ -136,7 +136,7 @@
         "image": "https://a0.muscache.com/im/pictures/f6929fa1-c685-45c8-bbe7-cb37202466bc.jpg?im_w=720"
       },
       {
-        "hotel_id": 16,
+        "id": 16,
         "name": "Golden Gate Hotel",
         "year_built": 2019,
         "address": "Gate - Hyderabad, India",
@@ -145,7 +145,7 @@
         "image": "https://a0.muscache.com/im/pictures/51999130-df20-45da-bdde-8173e66a868d.jpg?im_w=720"
       },
       {
-        "hotel_id": 17,
+        "id": 17,
         "name": "Oceanfront Oasis",
         "year_built": 1986,
         "address": "Oceanfront - Odisha, India",
@@ -154,7 +154,7 @@
         "image": "https://a0.muscache.com/im/pictures/1798b044-2f19-4160-ae07-ebbec7ea81cd.jpg?im_w=720"
       },
       {
-        "hotel_id": 18,
+        "id": 18,
         "name": "Majestic Manor",
         "year_built": 2017,
         "address": "Manor - Kolkata, India",
@@ -163,7 +163,7 @@
         "image": "https://a0.muscache.com/im/pictures/1749a96d-9f4a-4ad8-a146-d092775281c6.jpg?im_w=720"
       },
       {
-        "hotel_id": 19,
+        "id": 19,
         "name": "Lakeshore Lodge",
         "year_built": 1984,
         "address": "Lakeshore - Kerala, India",
@@ -172,7 +172,7 @@
         "image": "https://a0.muscache.com/im/pictures/miso/Hosting-913667030722870434/original/42aa61ac-c277-44a1-93ed-ca9eb0e46f49.jpeg?im_w=720"
       },
       {
-        "hotel_id": 20,
+        "id": 20,
         "name": "Hilltop Hideaway",
         "year_built": 2016,
         "address": "Hilltop - Uttarakhand, India",
@@ -183,7 +183,7 @@
     ],
     "users":[
       {
-          "user_id": 1,
+          "id": 1,
           "username": "admin",
           "email": "admin",
           "password": "admin"
