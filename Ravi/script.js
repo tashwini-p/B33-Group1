@@ -66,12 +66,12 @@ function putUsersIntoLocal(data) {
 
 siginBtn.addEventListener("click", (e) => {
   e.preventDefault();
-  console.log("hi");
+  console.log("hello");
   if (checkUsers(userData)) {
     toastIntoAction("Login Successful", "success");
     setTimeout(() => {
-      window.location.href = "../raviu/index.html";
-    },1200)
+      window.location.href = "./ravi.html";
+    },1500)
    
   } else {
     toastIntoAction("User doesnot exist or Invalid Credentials.", "alert");
@@ -170,7 +170,10 @@ signupBtn.addEventListener("click", (e) => {
       userImage:"user.png",
     };
     putUsersIntoLocal(obj);
-    window.location.href = "../raviii/index.html";
+    toastIntoAction("signUp successful!", "success");
+    setTimeout(() => {
+      window.location.href = "./index.html";
+    },1500)
   }
 });
 
