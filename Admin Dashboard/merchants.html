@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merchants</title>
+    <link rel="stylesheet" href="merchants.css">
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="skeleton.css" />
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+    <nav id="admin-dash">
+        <div class="n1">
+            <h1 class="heading">Our Hotels</h1>
+        </div>
+    </nav>
+
+    <section id="interface">
+        <div id="admin-menu">
+            <ul class="admin-items">
+                <li class="active">
+                    <a href="dashboard.html">Dashboard</a>
+                </li>
+                <li>
+                    <a href="merchants.html">Our Hotels</a>
+                </li>
+                <!-- <li>
+                    <a href="project.html"</a>
+                </li>
+                <li>
+                    <a href="blog.html">Blogs</a>
+                </li> -->
+            </ul>
+        </div>
+    
+
+
+            <div class="row">
+                <div class="columns four sidebar-one" id="sidebar-one">
+
+                    <div>
+                        <h4>Add New Hotel</h4>
+                        <input type="text" id="hotel-id" class="u-full-width" placeholder="ID" />
+                        <input type="text" id="hotel-title" class="u-full-width" placeholder="Hotel Title" />
+                        <input type="text" id="hotel-address" class="u-full-width"
+                            placeholder="Address" />
+                        <input type="text" id="hotel-img" class="u-full-width" placeholder="Hotel Image" />
+                        <input type="text" id="hotel-year" class="u-full-width" placeholder="Year Hotel Was Built" />
+                        <input type="text" id="hotel-price" class="u-full-width" placeholder="Price Per Night" />
+                        <input type="text" id="hotel-rating" class="u-full-width" placeholder="Hotel rating" />
+
+                        <button id="add-hotel-btn" class="u-full-width button button-primary">
+                            Add New Hotel
+                        </button>
+                    </div>
+                    <hr />
+
+                    <div>
+                        <h4>Update Hotel Info</h4>
+                        <input type="text" id="update-hotel-id" class="u-full-width" placeholder="ID" />
+                        <input type="text" id="update-hotel-title" class="u-full-width" placeholder="Hotel Title" />
+                        <input type="text" id="update-hotel-address" class="u-full-width"
+                            placeholder="Address" />
+                        <input type="text" id="update-hotel-img" class="u-full-width" placeholder="Hotel Image" />
+                        <input type="text" id="update-hotel-year" class="u-full-width" placeholder="Year Hotel Was Built" />
+                        <input type="text" id="update-hotel-price" class="u-full-width" placeholder="Price Per Night" />
+                        <input type="text" id="update-hotel-rating" class="u-full-width" placeholder="Hotel rating" />
+                        <button id="update-hotel-btn" class="u-full-width button button-primary">
+                            Update Hotel Info
+                        </button>
+                    </div>
+                    <hr />
+
+                    <div>
+                        <h4>Sort Based On Price</h4>
+                        <button
+                          id="sort-low-to-high"
+                          class="u-full-width button button-primary"
+                        >
+                          Sort Low To High
+                        </button>
+                        <button
+                          id="sort-high-to-low"
+                          class="u-full-width button button-primary"
+                        >
+                          Sort High To Low
+                        </button>
+                    </div>
+
+                    <!-- <h4>Filter Based On Project Status</h4>
+                    <button id="filter-completed" class="u-full-width button button-primary">
+                        Completed
+                    </button>
+                    <button id="filter-pending" class="u-full-width button button-primary">
+                        Pending
+                    </button> -->
+                </div>
+
+                <div class="columns eight main">
+                    <div class="search-arts-wrapper" id="search-arts-wrapper">
+                      <select id="search-by-select">
+                        <option value="">Search By</option>
+                        <option value="title">Hotel Name</option>
+                        <option value="artist">Location(City)</option>
+                      </select>
+                      <input
+                        type="text"
+                        id="search-by-input"
+                        placeholder="Enter title/artist here"
+                      />
+                      <button
+                        id="search-by-button"
+                        style="background-color: #ff6e88; color: white; border: none"
+                      >
+                        Search
+                      </button>
+                    </div>
+                    <div class="data-list-wrapper" id="data-list-wrapper">
+                      <!-- append card-list that includes card here -->
+                    </div>
+                    <div class="pagination-wrapper" id="pagination-wrapper">
+                      <!-- append the pagination button here -->
+                    </div>
+                  </div>
+            </div>
+       
+       
+    </section>
+
+
+</body>
+<script src="merchants.js"></script>
+</html>

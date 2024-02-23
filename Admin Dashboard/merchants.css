@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+#admin-dash{
+    width: 100%;
+    height: 120px;
+
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    font-size: 3rem;
+    background: linear-gradient(135deg, hsl(346, 80%, 47%,1) 9%, hsl(333, 100%, 60%,1)82%);
+    color: rgb(88, 11, 11);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    >h1{
+        font-weight: bold;
+    }
+}
+
+#dash-main{
+    display: flex;
+}
+
+/* SIDE BAR */
+
+#interface{
+    display: flex;
+}
+
+#admin-menu {
+    background-color: white;
+    width: 40%;
+    height: 170vh;
+    /* position: fixed; */
+    font-family: sans-serif;
+    /* border-right: 3px solid black ; */
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+
+  #admin-menu .admin-items {
+    margin-top: 40px;
+    padding-left: 10px;
+  }
+  
+  #admin-menu .admin-items li {
+    list-style: none;
+    padding: 15px 0;
+    font-size: 2.5rem;
+  }
+  
+  #admin-menu .admin-items li:hover {
+    background-color:#ff6e88;
+    cursor: pointer;
+  }
+  
+  #admin-menu .admin-items .active {
+    border-left: 6px solid white;
+  }
+  
+  #admin-menu .admin-items li i {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 1rem;
+    margin: 0 10px 0 25px;
+    font-family: sans-serif;
+  }
+  
+  #admin-menu .admin-items li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 300px;
+    margin-left: 15px;
+  }
+
+
+
+/* reusable */
+
+.row{
+    display: flex;
+}
+
+#search-arts-wrapper{
+    margin-top: 20px;
+}
+
+.capsule {
+    height: 26px;
+    line-height: 26px;
+    border-radius: 10px;
+  }
+  
+  #main_container {
+    display: flex;
+  }
+  
+  .container {
+    margin-bottom: 80px;
+  }
+  
+  .sidebar-one {
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+    padding: 16px;
+  }
+  
+  /* cards */
+  
+  /* card list */
+  .card-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    gap: 4%;
+  }
+  
+  .card:not(:last-child) {
+    margin-bottom: 16px;
+  }
+  
+  @media (min-width: 576px) {
+    .card {
+      flex-basis: 38%;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .card {
+      flex-basis: 100%;
+    }
+  }
+  
+  /* individual card  */
+  .card {
+    background-color: white;
+    font-size: 20px;
+    padding: 15px;
+    border: 1px solid #e1e1e1;
+    max-width: 550px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 4%;
+  }
+  
+  .card-body > p {
+    font-size: 15px;
+  }
+  
+  .card__item:not(:last-child) {
+    margin-bottom: 8px;
+  }
+  
+  .card__img {
+    margin-bottom: 8px;
+    height: 120px;
+  }
+  
+  .card > div > img {
+    height: 120px;
+    width: 120px;
+    object-fit: cover !important;
+  }
+  
+  @media (min-width: 768px) {
+    .card {
+      flex-direction: row;
+    }
+  
+    .card__img {
+      flex-basis: 33%;
+      margin: 0;
+      height: auto;
+      max-height: 120px;
+    }
+  
+    .card__img img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+  
+  .card__title {
+    margin: 0;
+    color: #1c1c1c;
+    font-size: 18px;
+  }
+  
+  .card__description {
+    font-size: 15px;
+    color: #696969;
+    line-height: 1.5;
+  }
+  
+  .card > div > div > button {
+    background-color: red !important;
+    color: white;
+  }
+  
+  .card-button {
+    margin-left: 25%;
+    background-color: red;
+    color: white;
+  }
+  
+  .card-body > p {
+    margin-bottom: 5px;
+  }
+  
+  
+  h5 {
+    color: #696969;
+  }
+  
+  /* CSS for debounce-throttle page */
+  
+  #query {
+    height: 50px;
+    width: 350px;
+    font-size: 30px;
+  }
+  
+  #box {
+    width: max-content;
+    padding: 3rem;
+    margin: auto;
+    font-size: 30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .card-img > img {
+    border: 1px solid #e1e1e1;
+    width: 60px;
+  }
+  
+  #pagination-wrapper {
+    margin-top: 10px;
+  }
+  

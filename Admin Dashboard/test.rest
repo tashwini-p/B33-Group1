@@ -1,0 +1,17 @@
+###
+
+GET https://b33-group1-airbnb.onrender.com/listings
+
+###
+POST https://b33-group1-airbnb.onrender.com/listings
+Content-Type: application/json
+
+{
+    "name":"Hotel Lotus",
+    "address" : "Bangalore, India"
+}
+
+
+
+
+
