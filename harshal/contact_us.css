@@ -1,0 +1,350 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+     
+}
+
+.container {
+   
+    width: 100%;
+  
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    background: linear-gradient(135deg, hsl(346, 80%, 47%) 9%, hsl(333, 100%, 60%) 82%);
+    box-shadow : 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+.contact-form{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px;
+    height: 350px;
+}
+.firstPart{
+    display: flex;
+    margin-top: 30px;
+     
+}
+ 
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 400px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+ /* footer css */
+
+.footer{
+    margin-top: 40px;
+    height: auto;
+    width: 100%;
+    background-color:#161816;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.title>h2{
+    color: white;
+    font-weight: bold;
+}
+
+.ipt-btn{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+  
+
+    
+}
+#submitbtn{
+    width: 150px;
+    margin: auto;
+    transition: transform 1s;
+ background-color:pink;
+ color: rgb(255,255,255) ;
+ }
+#submitbtn:hover{
+    transform: scale(1.2);
+    color: rgb(227, 123, 140);
+}
+#EInput{
+    /* padding: 20px; */
+    margin: 20px;
+    width: 400px;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    color:#004d8c;
+
+}
+.sbtn{
+    height: 60px;
+    width: 200px;
+    margin: 20px;
+    border-radius: 20px;
+    color: #3ea8ff;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+
+}
+
+.sbtn:hover{
+    background-color:rgb(255, 20, 20);
+    color: white;
+    border: 2px solid black;
+}
+
+.main-boxF{
+     /* height: 500px; */
+     display: grid;
+   
+     grid-template-columns: repeat(3,1fr);
+     gap: 20px;
+     display: flex;
+     justify-content: space-around;
+     margin-top: 40px;
+     /* padding: 10px; */
+     color: white;
+}
+.boxF{
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+    width: 260px;
+
+}
+.media{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+}
+ul>li{
+    /* display: ; */
+    list-style: none;
+}
+
+ 
+@media screen and (max-width:950px) {
+    .firstPart{
+        display: flex;
+        margin-top: 30px;
+         flex-direction: column;
+         margin: auto;
+    }
+    .contact-form{
+        margin: auto;
+    }
+    .container {
+        width: 100%;
+        margin: auto;
+        padding: 10px;
+        background-color: #fff;
+        border-radius: 8px;
+       
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        
+    }
+    #submitbtn{
+        width: 150px;
+        text-align: left;
+        transition: transform 1s;
+    }
+    .image>img{
+        
+         width: 100%;
+        align-items: center;
+    }
+    .mbox2{
+        grid-template-columns: repeat(1,1fr);
+    }
+  
+    .footer{
+        height: auto;
+        padding-top: 10px;
+    }
+    .main-boxF{
+        /* height: 500px; */
+        display: grid;
+        /* margin-top: -0px; */
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+        margin-left:150px ;
+        /* margin: auto; */
+        /* display: flex;
+        flex-wrap: wrap; */
+
+        
+   }
+    .airbnbDiv{
+        display: none;
+    }
+
+
+   .ipt-btn{
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    /* justify-content: center; */
+   }
+
+
+    }
+    @media screen and (max-width:500px) {
+    
+        .mbox2{
+            grid-template-columns: repeat(1,1fr);
+           height: auto;
+           
+        }
+    
+        .h1>h2{
+            margin-top: 20px;
+        }
+      
+        #name{
+            width: 250px;
+            height: 50px;
+            padding: 10px;
+           
+           }
+           .h1{
+            margin-left: 10px;
+            margin: 60px;
+            color: white;
+            font-size: 14px;
+        
+        }
+        .main-boxF{
+            /* height: 500px; */
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            gap: 20px;
+            display: flex;
+            flex-wrap: wrap;
+    
+            
+       }
+       .footer{
+        height: auto;
+       }
+       .ipt-btn{
+        display: flex;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        justify-content: center;
+       }
+        }
+        .header{
+            width: 100%;
+          
+        }
+
+        .main-nav{
+            display: flex;
+            justify-content: space-evenly;
+            
+        }
+        
+        .logo>img{
+            height: 70px;
+            margin: 10px;
+            /* width: 30px; */
+        }
+        
+        .logo>img:hover{
+            cursor: pointer;
+        }
+        .middle{
+            margin: 28px;
+        }
+        .s1{
+            font-size: 24px;
+            padding: 10px;
+            margin: 10px;
+            color: #b3b3b3;
+            font-weight: bold;
+        }
+        
+        .s1:hover{
+        cursor: pointer;
+        background-color: aliceblue;
+        border-radius: 40px;
+        color: rgb(113, 113, 113);
+        }
+        
+        .last{
+            margin: 28px;
+           
+        }
+        
+        .last>button{
+            padding:8px;
+            border-radius: 10px;
+            width: 50px;
+        }
+        
+        .sp1{
+            font-size: 20px;
+            padding: 9px;
+            /* margin: 2px; */
+            /* color: rgb(63,94,251); */
+        
+            font-weight: bold;
+        }
+        
+        .sp1:hover{
+            cursor: pointer;
+        }
+        
