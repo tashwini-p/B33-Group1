@@ -51,7 +51,8 @@ color: rgb(113, 113, 113);
     font-size: 20px;
     padding: 9px;
     /* margin: 2px; */
-    color:black;
+    /* color: rgb(63,94,251); */
+
     font-weight: bold;
 }
 
@@ -69,6 +70,8 @@ color: rgb(113, 113, 113);
     border-radius: 30px;
     /* box-shadow: rgba(216, 216, 216, 0.35) 0px 5px 15px */
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /* background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%); */
    padding: 5px;
 
 }
@@ -104,16 +107,16 @@ color: rgb(113, 113, 113);
 
 .d1>p{
     /* margin-t0px; */
-    margin-top: 20px;
+    margin-top: 7px;
     
 }
 .d2>p{
     /* margin-t0px; */
-    margin-top: 20px;
+    margin-top: 7px;
 }
 .d3>p{
     /* margin-t0px; */
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .btn1{
@@ -125,7 +128,8 @@ color: rgb(113, 113, 113);
     border: none;
     margin-top: 10px;
     border-radius: 35px;
-    background-color: rgb(254, 55, 91);
+    /* background-color: rgb(254, 55, 91); */
+    background: rgba(249,35,80,1);
 }
 .btn1:hover{
     cursor: pointer;

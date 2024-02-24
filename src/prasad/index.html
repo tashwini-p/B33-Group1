@@ -18,12 +18,16 @@
     <span class="s1" style="color: black;">
     Stays
     </span>
-    <span class="s1">
+    <!-- <span class="s1">
     About
-    </span>
-    <span class="s1">
+    </span> -->
+    <a href="/src/support.html" style="text-decoration: none;" class="s1"> About </a>
+    <!-- <span class="s1">
        Support
-    </span>
+    </span> -->
+
+<a href="#" style="text-decoration: none;" class="s1">Support</a>
+
 </div>
 
 <div class="last">
@@ -44,17 +48,32 @@
   </div>
   <div class="d1">
     <p>Check in</p>
-    <h4> Add dates</h4>
+    <h4> Add dates</h4> 
+<input type="date" id="start"  
+style=
+"background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+border-radius: 10px;border: none;" name="trip-start" 
+value="2023-02-22" min="2024-01-01" max="2024-12-31" />
 
   </div>
   <div class="d2">
     <p>Check out</p>
     <h4> Add dates</h4>
+    <input type="date" id="start" style=
+    "background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    border-radius: 10px;border: none;"
+     name="trip-start" value="2024-08-12" min="2024-01-01" max="2024-12-31" />
 
   </div>
   <div class="d3">
     <p>who</p>
  <h4>Add guests</h4>
+ <input type="number" style=
+ "width: 90px;background: rgb(238,174,202);
+ background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+ border-radius: 10px;border: none;;border-radius: 10px;" id="name" name="name" required minlength="4" maxlength="8" size="10" />
 
   </div>
   <button class="btn1"><i class="fa-solid fa-magnifying-glass"></i>  Search</button>
