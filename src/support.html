@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>About Us - Airbnb</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            /* background-color: #f0f0f0; */
+        }
+
+        header {
+            /* background-image: linear-gradient(orange, white,green); */
+            color: #fff;
+            background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+            padding: 15px;
+            text-align: center;
+        }
+
+        section {
+            padding: 40px;
+            text-align: center;
+        }
+
+        h1 {
+    
+            margin-bottom: 20px;
+        }
+
+        p {
+            /* color: #484848; */
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        footer {
+            background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(108,9,121,1) 35%, rgba(0,212,255,1) 100%);
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+        }
+
+        .hero-image {
+            background-image: url(./prasad/images/bg\ images.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .hero-text {
+            color: white;
+            text-align: center;
+        }
+
+        .hero-text h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        .hero-text p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+/* nav part */
+
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo>img{
+    height: 70px;
+    margin: 10px;
+    /* width: 30px; */
+}
+
+.logo>img:hover{
+    cursor: pointer;
+}
+.middle{
+    margin: 28px;
+}
+.s1{
+    font-size: 24px;
+    padding: 10px;
+    margin: 10px;
+    color: #b3b3b3;
+    font-weight: bold;
+}
+
+.s1:hover{
+cursor: pointer;
+background-color: aliceblue;
+border-radius: 40px;
+color: rgb(113, 113, 113);
+}
+
+.last{
+    margin: 28px;
+}
+
+.last>button{
+    padding:8px;
+    border-radius: 10px;
+    width: 50px;
+}
+
+.sp1{
+    font-size: 20px;
+    padding: 9px;
+    /* margin: 2px; */
+    color:black;
+    font-weight: bold;
+}
+
+.sp1:hover{
+    cursor: pointer;
+}
+
+
+.search-nav{
+    width: 60%;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content:space-evenly;
+    margin: auto;
+    border-radius: 30px;
+    /* box-shadow: rgba(216, 216, 216, 0.35) 0px 5px 15px */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   padding: 5px;
+
+}
+/* .search-nav:hover{
+
+    background-color: #868686;
+} */
+
+
+.input{
+    padding: 30px;
+     border-radius: 30px 30px 30px 30px; 
+    margin-left: -30px;
+    /* color: white; */
+     border: 1px solid rgb(197, 197, 197); 
+ /* background-color: #ebebeb; */
+    /* border: none; */
+    /* padding-left: 0px; */
+}
+/* .input:hover{
+    border-radius: 30px 30px 30px 30px;
+    background-color: #d1d0d0;
+    color: rgb(55, 55, 55);
+    font-weight: bold;
+    border: none;
+} */
+
+.d1{
+    border-radius: 20px;
+    /* width: 80px; */
+    /* border: 1px ; */
+}
+
+.d1>p{
+    /* margin-t0px; */
+    margin-top: 7px;
+    
+}
+.d2>p{
+    /* margin-t0px; */
+    margin-top: 7px;
+}
+.d3>p{
+    /* margin-t0px; */
+    margin-top: 10px;
+}
+
+.btn1{
+    /* height: 200px; */
+    width: 110px;
+    height: 60px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    margin-top: 10px;
+    border-radius: 35px;
+    background-color: rgb(254, 55, 91);
+}
+.btn1:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+/* media queries */
+  @media only screen and (min-width: 950px) {
+  
+    .search-navbar{
+        display: none;
+    }
+
+  }  
+   @media only screen and (max-width:950px) {
+  
+   .main-nav{
+    display: none;
+
+   }
+   .search-nav{
+    display: none;
+   }
+
+  } 
+
+
+    </style>
+</head>
+<body>
+<!-- nav part -->
+<div class="main-nav">
+
+    <div class="logo">
+       <img src="https://www.vectorlogo.zone/logos/airbnb/airbnb-ar21.png" alt="">
+    </div>
+    <div class="middle">
+        <a href="/src/prasad/index.html" style="text-decoration: none;" class="s1"> Stays </a>
+        <!-- <span class="s1">
+        About
+        </span> -->
+        <a href="/src/support.html" style="text-decoration: none;" class="s1"> About </a>
+        <!-- <span class="s1">
+           Support
+        </span> -->
+    
+    <a href="#" style="text-decoration: none;" class="s1">Support</a>
+    
+    </div>
+    
+    <div class="last">
+        <span class="sp1">Airbnb your home</span>
+        <span class="sp1">
+            <i class="fa-solid fa-globe"></i>
+        </span>
+        <button class="sp1"><i class="fa-solid fa-user"></i></button>
+    </div>
+        </div> 
+     
+ 
+       
+
+    
+
+
+<header>
+    <h1>About Us</h1>
+</header>
+
+<div class="hero-image">
+    <div class="hero-text">
+        <h1>Welcome to Airbnb</h1>
+        <p>Discover unique travel experiences</p>
+    </div>
+</div>
+
+<section class="container">
+    <h2>Our Story</h2>
+    <p>Welcome to Airbnb, where unique travel experiences start. We began in 2008 when two designers who had space to share hosted three travelers looking for a place to stay. Now, millions of hosts and travelers choose to create a free Airbnb account so they can list their space and book unique accommodations anywhere in the world.</p>
+    <p>From cozy treehouses to luxurious villas, Airbnb offers memorable experiences for every traveler. Our mission is to create a world where anyone can belong anywhere, providing access to unique places and cultures around the globe.</p>
+  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor at qui nisi consequuntur fuga, vero, nobis officia sed eveniet cumque aperiam commodi.
+</section>
+
+<footer>
+    <p>&copy; 2024 Airbnb. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
