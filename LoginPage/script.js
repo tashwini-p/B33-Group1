@@ -77,7 +77,7 @@ siginBtn.addEventListener("click", (e) => {
   if (checkUsers(userData)) {
     toastIntoAction("Login Successful", "success");
     setTimeout(() => {
-      window.location.href = "../src/prasad/index.html";
+      window.location.href = "../index.html";
     },1500)
    
   } else {
