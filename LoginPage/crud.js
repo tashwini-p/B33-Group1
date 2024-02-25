@@ -2,15 +2,16 @@ const baseUrl = `https://b33-group1-airbnb.onrender.com`;
 const userUrl = `${baseUrl}/listings`;
 
 let mainSection = document.getElementById("card-Wrapper");
-
+let searchDestination = document.getElementById("search-destination");
+let searchDestinationBtn = document.getElementById("search-destination-btn");
 
 window.addEventListener("load", () => {
     fetchData();
   });
   
-async function fetchData(){
+async function fetchData(url=`${userUrl}`, param=""){
     try {
-        let response = await fetch(userUrl,{
+        let response = await fetch(`${userUrl}?${param}`,{
             method: "GET"
         });
         let data = await response.json();
@@ -22,6 +23,13 @@ async function fetchData(){
 }
 // fetchData()
 
+searchDestinationBtn.addEventListener("click", ()=>{
+    if(searchDestination.value==""){
+        fetchData();
+    } else {
+        fetchData(userUrl, `address_like=${searchDestination.value}`);
+    }  
+})
 
 // appendAllList
 
@@ -78,7 +86,7 @@ btn.innerText = "BOOK NOW";
 flex3.append(rate,btn);
 
 btn.addEventListener("click", ()=>{
-    window.location.href="../../B33-Group1/payment/adress.html";
+    window.location.href="./payment/adress.html";
 })
 
 card.append(img,flex,address,year_built,flex3);
