@@ -17,6 +17,7 @@
     <link rel="shortcut icon" href="/B33-Group1/Assests/bnb2.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css" />
     <title>StayBnb</title>
+
   </head>
    <body>
     <!-- this is nav -->
@@ -38,7 +39,7 @@
         <span class="sp1">
           <i class="fa-solid fa-globe"></i>
         </span>
-        <button class="sp1"><i class="fa-solid fa-user"></i></button>
+        <button id="login-button" class="sp1"><i class="fa-solid fa-user"></i></button>
       </div>
     </div>
 
@@ -201,5 +202,16 @@
   
 
   <script src="/B33-Group1/Ravi/crud.js"></script>
+  <script>
+
+
+    let loginButton = document.getElementById("login-button");
+    loginButton.style.border="3px solid black";
+    loginButton.addEventListener("click", ()=>{
+      window.location.href="../../LoginPage/index.html"
+    })
+
+
+  </script>
   </body>
 </html>

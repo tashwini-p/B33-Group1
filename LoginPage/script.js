@@ -48,6 +48,13 @@ function checkUsers(data) {
     email: loginemailInput.value,
     password: loginpasswordInput.value,
   };
+
+  if (obj.email === "admin" && obj.password === "admin") {
+    // Redirect to admin dashboard
+    window.location.href = "../Admin Dashboard/dashboard.html";
+    return true; // Return true to stop further execution
+  }
+
   for (let i = 0; i < data.length; i++) {
     if (
       (data[i].email == obj.email || data[i].phone == obj.email) &&
@@ -55,7 +62,7 @@ function checkUsers(data) {
     ) {
       putUsersIntoLocal(data[i]);
       return true;
-    }
+    } 
   }
   return false;
 }
@@ -70,7 +77,7 @@ siginBtn.addEventListener("click", (e) => {
   if (checkUsers(userData)) {
     toastIntoAction("Login Successful", "success");
     setTimeout(() => {
-      window.location.href = "./ravi.html";
+      window.location.href = "../src/prasad/index.html";
     },1500)
    
   } else {
