@@ -16,6 +16,7 @@ Fullstack
 
 ## Deplolyed App
 Frontend: https://65db734b4e6242fb39b34caa--astonishing-florentine-67ecf3.netlify.app/
+
 Database: https://b33-group1-airbnb.onrender.com
 
 ## Directory Structure
