@@ -13,11 +13,10 @@ body {
 .container {
    
     width: 100%;
-  
     padding: 15px;
     background-color: #fff;
     border-radius: 8px;
-    background: linear-gradient(135deg, hsl(346, 80%, 47%) 9%, hsl(333, 100%, 60%) 82%);
+    /* background: linear-gradient(135deg, hsl(346, 80%, 47%) 9%, hsl(333, 100%, 60%) 82%); */
     box-shadow : 0 0 10px rgba(0, 0, 0, 0.1);
     
 }
@@ -25,6 +24,8 @@ body {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding: 20px;
     height: 350px;
+    margin-right: 200px;
+    margin-top: 30px;
 }
 .firstPart{
     display: flex;
@@ -66,6 +67,7 @@ button {
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    background: linear-gradient(135deg, hsl(346, 80%, 47%) 9%, hsl(333, 100%, 60%) 82%);
 }
 
 button:hover {
@@ -293,7 +295,8 @@ ul>li{
 
         .main-nav{
             display: flex;
-            justify-content: space-evenly;
+            justify-content: space-between;
+            padding: 20px;
             
         }
         
@@ -307,7 +310,8 @@ ul>li{
             cursor: pointer;
         }
         .middle{
-            margin: 28px;
+            margin-top: 28px ;
+            margin-left: 100px;
         }
         .s1{
             font-size: 24px;
