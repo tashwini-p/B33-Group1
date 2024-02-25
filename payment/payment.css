@@ -4,6 +4,19 @@ body {
     margin: 0;
     padding: 0;
 }
+
+nav{
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(135deg, hsl(346, 80%, 47%,1) 9%, hsl(333, 100%, 60%,1)82%);
+    font-size: 2rem;
+    >h1{
+        color: white;
+    }
+}
 .payment-method {
     padding-left: 240px;
 

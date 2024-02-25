@@ -77,6 +77,10 @@ let btn = document.createElement("button")
 btn.innerText = "BOOK NOW";
 flex3.append(rate,btn);
 
+btn.addEventListener("click", ()=>{
+    window.location.href="../../payment/adress.html";
+})
+
 card.append(img,flex,address,year_built,flex3);
 
 
