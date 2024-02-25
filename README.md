@@ -21,7 +21,7 @@ Database: https://b33-group1-airbnb.onrender.com
 
 ## Directory Structure
 B33-Group1/
-├─ backend/
+├─ backend/ <br>
 ├─ index.html
 
 ├─ src/
