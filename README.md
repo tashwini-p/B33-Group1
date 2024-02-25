@@ -4,7 +4,7 @@
 Welcome to our GitHub repository for StayBnB, an innovative web application designed to revolutionize the way people book accommodations. Inspired by the success of platforms like Airbnb, StayBnB offers a comprehensive solution for travelers and hosts alike. Whether you're looking for a cozy apartment for a weekend getaway or managing your property listings, StayBnB has you covered.
 
 ## Project Type
-Frontend | Backend
+Frontend 
 
 ## Deplolyed App
 Frontend: https://65db734b4e6242fb39b34caa--astonishing-florentine-67ecf3.netlify.app/
