@@ -1,1 +1,1 @@
-# B33-Group1
+# StayBnB - A Hotel Booking Website
