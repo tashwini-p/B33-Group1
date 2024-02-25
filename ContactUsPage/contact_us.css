@@ -29,8 +29,16 @@ body {
 }
 .firstPart{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
     margin-top: 30px;
-     
+    >.image{
+        width: 50%;
+        >img{
+            width: 700px;
+        }
+    }
 }
  
 h1 {
