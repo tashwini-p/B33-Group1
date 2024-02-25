@@ -6,6 +6,7 @@
     <title>Admin Dashboard</title>
     <link rel="stylesheet" href="dashboard.css">
     <script src="https://kit.fontawesome.com/6a3c8470d3.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/6a3c8470d3.js" crossorigin="anonymous"></script>
 </head>
 <body>
     
@@ -13,6 +14,7 @@
     <div class="n1">
         <h1 class="heading">Admin   Dashboard</h1>
     </div>
+    <i id="home-icon" class="fa-solid fa-house"></i>
 </nav>
 
 <section id="dash-main">
@@ -70,4 +72,10 @@
 </section>
 
 </body>
+<script>
+    let homeicon = document.getElementById("home-icon");
+    homeicon.addEventListener("click", ()=>{
+        window.location.href="../src/prasad/index.html"
+    })
+</script>
 </html>

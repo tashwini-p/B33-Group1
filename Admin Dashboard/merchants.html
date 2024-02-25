@@ -8,13 +8,14 @@
     <link rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" href="skeleton.css" />
     <link rel="stylesheet" href="style.css" />
-
+    <script src="https://kit.fontawesome.com/6a3c8470d3.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <nav id="admin-dash">
         <div class="n1">
             <h1 class="heading">Our Hotels</h1>
         </div>
+        <i id="home-icon" class="fa-solid fa-house"></i>
     </nav>
 
     <section id="interface">
@@ -132,4 +133,10 @@
 
 </body>
 <script src="merchants.js"></script>
+<script>
+  let homeicon = document.getElementById("home-icon");
+  homeicon.addEventListener("click", ()=>{
+      window.location.href="../src/prasad/index.html"
+  })
+</script>
 </html>
