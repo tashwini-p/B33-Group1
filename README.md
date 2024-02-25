@@ -21,33 +21,60 @@ Database: https://b33-group1-airbnb.onrender.com
 
 ## Directory Structure
 B33-Group1/
+
 ├─ backend/
+
 ├─ index.html
+
 ├─ src/
+
     ├─ aboutUs.html
+    
     ├─ style.css
+    
 ├─ Admin Dashboard/
+
     ├─ dashboard.html
+    
     ├─ merchants.html
+    
     ├─ dashboard.css
+    
     ├─merchants.css
+    
 ├─ LoginPage/
+
     ├─ index.html
+    
     ├─ crud.js
+
     ├─ script.js
+    
 ├─ payment/
+
     ├─ address.html
+    
     ├─ address.css
+    
     ├─ address.js
+    
     ├─ payment.html
+    
     ├─ payment.css
+    
     ├─ payment.js
+    
 ├─ContactUsPage
+
     ├─contact_us.html
+    
     ├─contact_us.css
+    
 
 ## Video Walkthrough of the project
-Here is a video walkthrough of our website: https://youtu.be/B-qu9aMADGU
+Here is a video walkthrough of our website:
+
+https://youtu.be/B-qu9aMADGU
 
 ## Features
 The key features of our website include:
