@@ -312,6 +312,7 @@ ul>li{
             height: 70px;
             margin: 10px;
             /* width: 30px; */
+            scale: 1.3;
         }
         
         .logo>img:hover{

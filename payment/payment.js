@@ -69,7 +69,7 @@ cashOnDel.addEventListener("click", (() => {
 
                 popup.classList.remove("open-popup")
 
-                location.href = "index.html"
+                window.location.href = "../src/prasad/index.html"
 
             }))
         }
@@ -175,7 +175,7 @@ upiInp.addEventListener("click", (() => {
 
         // popup.classList.remove("open-popup")
 
-        location.href = "index.html"
+        window.location.href = "../src/prasad/index.html"
 
     }))
 
@@ -311,7 +311,7 @@ okbuttonEl.addEventListener("click", (() => {
 
     // popup.classList.remove("open-popup")
 
-    location.href = "index.html"
+    window.location.href = "../src/prasad/index.html"
 
 }))
 
