@@ -44,7 +44,7 @@
             <span class="sp1">
               <i class="fa-solid fa-globe"></i>
             </span>
-            <button class="sp1"><i class="fa-solid fa-user"></i></button>
+            <button class="sp1"><i id="user-icon" class="fa-solid fa-user"></i></button>
           </div>
 
         
@@ -158,5 +158,12 @@
       </div>
     </div>
   </body>
+  <script>
+    let usericon = document.getElementById("user-icon");
+    usericon.addEventListener("click", ()=>{
+        window.location.href="../LoginPage/index.html"
+    })
+</script>
 </html>
 <script src="index.js"></script>
+
