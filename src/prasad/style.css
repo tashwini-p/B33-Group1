@@ -89,6 +89,10 @@ color: rgb(113, 113, 113);
     background-color: #868686;
 } */
 
+.search-nav input{
+    font-size: 1rem;
+}
+
 
 .input{
     padding: 30px;
